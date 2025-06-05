@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "react-jsx", // ✅ JSX 처리
+    "moduleResolution": "Node",
+    "esModuleInterop": true, // ✅ React import 지원
+    "allowSyntheticDefaultImports": true, // ✅ React import 지원
+    "strict": true,
+    "declaration": true,
+    "emitDeclarationOnly": false,
+    "outDir": "dist",
+    "rootDir": "src",
+    "composite": true,
+    "skipLibCheck": true // ✅ 외부 d.ts 오류 무시 (Storybook 문제 회피)
+  },
+  "include": ["src"]
+}
