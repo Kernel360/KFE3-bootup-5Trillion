@@ -1,1 +1,3 @@
-export { Test } from './Test';
+import './styles/globals.css';
+
+export * from './components';
